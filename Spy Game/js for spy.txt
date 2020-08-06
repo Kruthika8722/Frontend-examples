@@ -1,0 +1,16 @@
+alert("Hello! Welcome to the page.Please answer few questions");
+var fname=prompt("Please enter your First Name!");
+var lname=prompt("Please Enter Your Last name!");
+var age=prompt("Please Enter your Age!");
+var height=prompt("Please Enter your Height in Centimeters!");
+var pet=prompt("Please Enter your Pet Name!")
+alert("Thanks for Your Response! Have a great Day!")
+    if(fname[0]=== lname[0] && age > 20 && age<30 && height>175 && pet[0]==='y'){
+          console.log("Hey Comred! I have Found You!!");
+          
+    }else{
+        console.log("Sorry! Nothing Found! come back Later!");
+        
+    }
+
+
